@@ -33,3 +33,60 @@ p {
   font-weight: var(--fw-700);
   font-size: 1.125rem;
 }
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rating-body {
+    max-width: 40%;
+    text-align: left;
+  }
+
+  .rating-stars {
+    max-width: 50%;
+    text-align: left;
+  }
+
+  .rate {
+    display: inline;
+  }
+
+  .rating-stars > * {
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    scale: 1;
+    cursor: pointer;
+  }
+
+  .rating-stars > *:hover {
+    scale: 1.05;
+    transition: all 0.5 ease-in-out;
+  }
+
+  .rate-box-1 {
+    margin-left: 0;
+    margin-right: 6rem;
+  }
+
+  .rate-box-2 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .rate-box-3 {
+    margin-left: 6rem;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}

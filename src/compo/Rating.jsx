@@ -13,13 +13,13 @@ const Rating = () => {
           </p>
         </div>
         <div className="rating-stars">
-          <div>
+          <div className="rate-box-1">
             <Star sn={5} /> <span className="rate"> Rated {5} Stars in Reviews</span>
           </div>
-          <div>
+          <div className="rate-box-2">
             <Star sn={5} /> <span className="rate"> Rated {5} Stars in Report Guru</span>
           </div>
-          <div>
+          <div className="rate-box-3">
             <Star sn={5} /> <span className="rate"> Rated {5} Stars in BestTech</span>
           </div>
         </div>

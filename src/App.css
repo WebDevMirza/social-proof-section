@@ -33,6 +33,7 @@ body {
   font-weight: var(--fw-400);
   line-height: var(--line-height);
   letter-spacing: 0.6px;
+  padding-bottom: 4rem;
 }
 
 /* ==============================
@@ -44,6 +45,14 @@ main,
   max-width: 375px;
   width: 95%;
   margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  main,
+  .review {
+    max-width: 1440px;
+    width: 90%;
+  }
 }
 
 /* ================================
