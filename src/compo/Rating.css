@@ -64,7 +64,7 @@ p {
 
   .rating-stars > *:hover {
     scale: 1.05;
-    transition: all 0.5 ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
   .rate-box-1 {
