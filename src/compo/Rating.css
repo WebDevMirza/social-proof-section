@@ -1,0 +1,35 @@
+.rating-body,
+.rating-stars {
+  text-align: center;
+}
+
+main {
+  padding-top: 5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: var(--fw-700);
+  line-height: 0.8;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.rating-stars > * {
+  background-color: var(--upDarkGrayishMagenta);
+  margin-bottom: 1rem;
+  padding: 1.5rem 0;
+  border-radius: 0.5rem;
+}
+
+.rate {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: var(--fw-700);
+  font-size: 1.125rem;
+}

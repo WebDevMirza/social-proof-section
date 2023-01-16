@@ -1,0 +1,51 @@
+:root {
+  /*  ===============================
+        Colors
+        ===============================   */
+  --VeryDarkMagenta: hsl(300, 43%, 22%);
+  --SoftPink: hsl(333, 80%, 67%);
+  --DarkGrayishMagenta: hsl(303, 10%, 53%);
+  --upDarkGrayishMagenta: hsla(302, 10%, 53%, 0.178);
+  --LightGrayishMagenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+
+  /* ===============================
+       Fonts
+       ===============================  */
+
+  --ff-primary: "League Spartan", sans-serif;
+  --fs-fontsize: 1rem;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+  --line-height: 1.6;
+}
+
+/* ==============================
+     Body
+     ==============================  */
+
+body {
+  background-color: var(--LightGrayishMagenta);
+  color: var(--VeryDarkMagenta);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-fontsize);
+  font-weight: var(--fw-400);
+  line-height: var(--line-height);
+  letter-spacing: 0.6px;
+}
+
+/* ==============================
+  Layout
+  ============================== */
+
+main,
+.review {
+  max-width: 375px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* ================================
+     Typography
+     ================================ */
