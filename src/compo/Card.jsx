@@ -7,7 +7,7 @@ const Card = (props) => {
             <img src={props.mydata?.img} width={60} height={60} alt={props.mydata?.name + "'s image"} />
           </div>
           <div className="profile-name">
-            <h5>{props.mydata?.name}</h5>
+            <h4>{props.mydata?.name}</h4>
             <p>{props.mydata?.info}</p>
           </div>
         </div>
