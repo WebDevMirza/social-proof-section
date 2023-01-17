@@ -7,7 +7,7 @@ const Star = (props) => {
         {number_of_star.map((i, v) => {
           return (
             <span key={i}>
-              <img src={StarImg} aria-hidden />
+              <img src={StarImg} alt="" role={"presentation"} />
             </span>
           );
         })}
