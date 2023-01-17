@@ -12,12 +12,7 @@ const Review = () => {
   return (
     <>
       <section className="review">
-        {
-          <>
-            <Card mydata={data[0]} />
-            <Card mydata={data[1]} />
-            <Card mydata={data[2]} />
-          </>
+        {data.map((index, aData)=><Card key={index} mydata={aData} />)
         }
       </section>
     </>
